@@ -21,6 +21,37 @@ body {
 }
 
 .header {
+  background-color: #1f2937;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: #f9faf8;
+  transition: color 0.3s ease 0s;
+}
+.header__logo:hover {
+  color: #3882f6;
+}
+.header__menu {
+}
+.menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.menu__item {
+}
+.menu__link {
+  font-size: 18px;
+  color: #e5e7eb;
+  transition: color 0.3s ease 0s;
+}
+.menu__link:hover {
+  color: #3882f6;
 }
 
 .page {
@@ -28,4 +59,5 @@ body {
 }
 
 .footer {
+  background-color: #1f2937;
 }
