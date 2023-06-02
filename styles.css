@@ -57,6 +57,63 @@ body {
 .page {
   flex: 1 1 auto;
 }
+.page__main-screen {
+}
+
+/* MAIN-SCREEN */
+.main-screen {
+  background-color: #1f2937;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.main-screen__content {
+  max-width: 450px;
+}
+.main-screen__title {
+  font-weight: 900;
+  font-size: 48px;
+  color: #f9faf8;
+}
+.main-screen__text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+.main-screen__btn {
+}
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: transparent;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  padding: 5px 30px;
+  transition: all 0.3s ease 0s;
+}
+.btn:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+}
+.btn_blue {
+  background-color: #3882f6;
+  border: none;
+}
+.main-screen__image {
+  flex-shrink: 0;
+  background-color: #918d8d;
+  color: #f9faf8;
+  width: 500px;
+  min-height: 250px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .footer {
   background-color: #1f2937;
