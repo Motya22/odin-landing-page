@@ -64,6 +64,8 @@ body {
 }
 .page__quote {
 }
+.page__signup {
+}
 
 /* MAIN-SCREEN */
 .main-screen {
@@ -172,6 +174,36 @@ body {
   font-size: 24px;
   color: #1f2937;
   text-align: right;
+}
+
+/* SIGNUP */
+.signup {
+  padding: 100px 20px;
+}
+.signup__body {
+  max-width: 75%;
+  margin: 0 auto;
+  background-color: #3882f6;
+  padding: 50px 100px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.signup__content {
+}
+.signup__title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #f9faf8;
+}
+.signup__text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.signup__btn {
 }
 
 /* FOOTER */
