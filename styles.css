@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300italic,regular,500,700,900');
 
 * {
   margin: 0;
@@ -61,6 +61,8 @@ body {
 .page__main-screen {
 }
 .page__random {
+}
+.page__quote {
 }
 
 /* MAIN-SCREEN */
@@ -151,6 +153,28 @@ body {
   color: rgb(90, 89, 89);
 }
 
+/* QUOTE */
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 20px 70px;
+}
+.quote__container {
+  max-width: 790px;
+  margin: 0 auto;
+}
+.quote__text {
+  font-weight: 300;
+  font-size: 36px;
+  font-style: italic;
+}
+.quote__author {
+  font-weight: 700;
+  font-size: 24px;
+  color: #1f2937;
+  text-align: right;
+}
+
+/* FOOTER */
 .footer {
   background-color: #1f2937;
 }
